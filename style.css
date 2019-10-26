@@ -238,7 +238,7 @@ main {
 
 .index-links div {
     margin: 15px 15px 0;
-    width: calc(100% - 34px);
+    width: calc(100% - 30px);
     height: 100px;
     background-color: #111;
     border: 2px solid rgb(128, 0, 0);
@@ -302,7 +302,8 @@ main {
 }
 
 .musica video {
-    margin: 20px 20px 30px;
+    display: block;
+    margin: 20px auto 30px ;
     border: 1px solid rgb(128, 0, 0);
 }
 
@@ -323,7 +324,7 @@ main {
     color: #CC7839;
     text-transform: uppercase;
     height: 100%;
-    margin: 20px 20px 30px;
+    margin: 0 10px 0 10px;
 }
 
 .wrapper-desenvolvimento {
@@ -475,9 +476,16 @@ footer ul li a {
         text-transform: uppercase;
         font-weight: 555;
     }
+    .show-links .wrapper div {
+        float: left;
+        width: 226px;
+        height: 226px;
+        margin: 20px 10px 0px;
+    }
 
     .show-links .wrapper div p {
-        padding-top: 45%;
+        padding-top: 43%;
+        line-height: 40px;
         text-align: center;
         font-family: 'Bellefair', serif;
         font-size: 25px;
@@ -486,13 +494,6 @@ footer ul li a {
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
 
-    .show-links .wrapper div {
-        float: left;
-        width: 230px;
-        height: 230px;
-        margin: 20px 10px 0px;
-        
-    }
     .aces {
         background-image: url(imagens/CapaAcesHigh.jpg);
         background-repeat: no-repeat;
@@ -572,6 +573,7 @@ footer ul li a {
         height: 100%;
         column-count: 2;
         column-gap: 20px;
+        padding-right: 10px;
     }
 
     .wrapper-desenvolvimento {
