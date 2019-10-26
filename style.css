@@ -193,8 +193,6 @@ main {
     display: table;
 }
 
-
-
 .vertical-center {
     display: flex;
     flex-direction: column;
@@ -239,8 +237,8 @@ main {
 }
 
 .index-links div {
-    margin: 15px 16px 0;
-    width: calc(100% - 30px);
+    margin: 15px 15px 0;
+    width: calc(100% - 34px);
     height: 100px;
     background-color: #111;
     border: 2px solid rgb(128, 0, 0);
@@ -254,6 +252,96 @@ main {
     color: #CC7839;
     text-align: center;
     text-transform: uppercase;
+}
+
+.show-links .wrapper div {
+    margin: 15px 15px 0;
+    width: calc(100% - 34px);
+    height: 100px;
+    background-color: #111;
+    border: 2px solid rgb(128, 0, 0);
+}
+
+.show-links div p {
+    font-family: 'Bellefair', serif;
+    font-size: 25px;
+    line-height: 100px;
+    font-weight: 555;
+    color: #CC7839;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.show-links h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: 555;
+    color: #CC7839;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.musica {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.musica h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 25px;
+    line-height: 100px;
+    font-weight: 555;
+    color: #CC7839;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.musica video {
+    margin: 20px 20px 30px;
+    border: 1px solid rgb(128, 0, 0);
+}
+
+.musica h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 27px;
+    color: #CC7839;
+    font-weight: 555;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.musica p {
+    font-family: 'Bellefair', serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CC7839;
+    text-transform: uppercase;
+    height: 100%;
+    margin: 20px 20px 30px;
+}
+
+.wrapper-desenvolvimento {
+    width: 100%;
+    height: calc(100vh - 410px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fonte-padrao {
+    font-family: 'Bellefair', serif;
+    font-size: 40px;
+    color: #CC7839;
+    text-transform: uppercase;
+    font-weight: 555;
+    text-align: center;
 }
 
 /*
