@@ -250,6 +250,7 @@ main {
     font-family: 'Bellefair', serif;
     font-size: 30px;
     line-height: 100px;
+    font-weight: 555;
     color: #CC7839;
     text-align: center;
     text-transform: uppercase;
@@ -384,6 +385,7 @@ footer ul li a {
         font-size: 28px;
         color: #CC7839;
         text-transform: uppercase;
+        font-weight: 555;
     }
 
     .show-links .wrapper div p {
@@ -457,6 +459,7 @@ footer ul li a {
         font-family: 'Bellefair', serif;
         font-size: 28px;
         color: #CC7839;
+        font-weight: 555;
         text-transform: uppercase;
         text-align: center;
         padding-bottom: 30px;
@@ -466,6 +469,7 @@ footer ul li a {
         font-family: 'Bellefair', serif;
         font-size: 27px;
         color: #CC7839;
+        font-weight: 555;
         text-transform: uppercase;
         padding-bottom: 30px;
         text-align: center;
@@ -480,6 +484,24 @@ footer ul li a {
         height: 100%;
         column-count: 2;
         column-gap: 20px;
+    }
+
+    .wrapper-desenvolvimento {
+        width: 1000px;
+        height: calc(100vh - 410px);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fonte-padrao {
+        font-family: 'Bellefair', serif;
+        font-size: 40px;
+        color: #CC7839;
+        text-transform: uppercase;
+        font-weight: 555;
+        text-align: center;
     }
     
     .footer-links-viagens {
