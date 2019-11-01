@@ -384,7 +384,7 @@ main {
 }
 
 .wrapper-contato {
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: 0 auto;
 }
@@ -393,7 +393,7 @@ main {
     text-align: center;
     padding-bottom: 10px;
     font-family: 'Bellefair', serif;
-    font-size: 40px;
+    font-size: 28px;
     color: #CC7839;
     text-transform: uppercase;
     font-weight: 555;
@@ -403,8 +403,8 @@ main {
     width: calc(100% - 4px);
     text-align: center;
     font-family: 'Bellefair', serif;
-    font-size: 35px;
     color: #CC7839;
+    font-size: 22px;
     font-weight: 555;
     border: 2px solid rgb(128, 0, 0);
     background-color: #111;
@@ -413,7 +413,6 @@ main {
 
 .wrapper-contato a div {
     font-family: 'Bellefair', serif;
-    font-size: 24px;
     line-height: 100px;
     color: #CC7839;
     text-transform: uppercase;
@@ -421,7 +420,7 @@ main {
 
 .wrapper-contato div p {
     font-family: 'Bellefair', serif;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 100px;
     color: #CC7839;
 }
