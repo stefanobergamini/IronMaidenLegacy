@@ -187,7 +187,7 @@ main {
 .index-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url(imagens/LegacyOfTheBeastCapa.png);
+    background-image: url(imagens/CapaIronCelular.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -346,6 +346,86 @@ main {
     text-align: center;
 }
 
+.fonteViagem {
+    font-family: 'Bellefair', serif;
+    font-size: 40px;
+    color: #CC7839;
+    text-transform: uppercase;
+    font-weight: 555;
+    text-align: center;
+}
+
+.viagem-imagens {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.viagem-imagem {
+    border: 2px solid rgb(128, 0, 0);
+    order: 1;
+    margin: 11px;
+}
+
+.viagem-imagem-hor {
+    border: 2px solid rgb(128, 0, 0);
+    order: 2;
+    margin: 10px;
+}
+
+.viagem-imagem-hor img {
+    width: 100%;
+    height: calc(100% );
+}
+.viagem-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-contato {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-contato h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Bellefair', serif;
+    font-size: 40px;
+    color: #CC7839;
+    text-transform: uppercase;
+    font-weight: 555;
+}
+
+.wrapper-contato div {
+    width: calc(100% - 4px);
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    font-size: 35px;
+    color: #CC7839;
+    font-weight: 555;
+    border: 2px solid rgb(128, 0, 0);
+    background-color: #111;
+    margin-bottom: 10px;
+}
+
+.wrapper-contato a div {
+    font-family: 'Bellefair', serif;
+    font-size: 24px;
+    line-height: 100px;
+    color: #CC7839;
+    text-transform: uppercase;
+}
+
+.wrapper-contato div p {
+    font-family: 'Bellefair', serif;
+    font-size: 24px;
+    line-height: 100px;
+    color: #CC7839;
+}
+
 /*
 
 
@@ -395,23 +475,6 @@ footer ul li a {
     margin-bottom: 10px;
 }
 
-.fonteViagem {
-    font-family: 'Bellefair', serif;
-    font-size: 40px;
-    color: #CC7839;
-    text-transform: uppercase;
-    font-weight: 555;
-    text-align: center;
-}
-
-.viagem-imagem {
-    flex-basis: 90%;
-}
-
-.viagem-imagem img {
-    width: 100%;
-}
-
 /*
 
 
@@ -424,6 +487,15 @@ footer ul li a {
     .wrapper {
         width: 1000px;
         margin: 0 auto;
+    }
+    .index-banner {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-image: url(imagens/LegacyOfTheBeastCapa.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: table;
     }
 
     header .header-link {
@@ -468,14 +540,15 @@ footer ul li a {
         background-color: #111;
         border: none;
         float: left;
+        border: 2px solid rgb(128, 0, 0);
     }
 
     .index-box-quadrado {
-        width: calc(25% - 20px) !important;
+        width: calc(25% - 24px) !important;
     }
 
     .index-box-long {
-        width: calc(50% - 20px) !important;
+        width: calc(50% - 24px) !important;
     }
 
     .index-links div h3 {
@@ -656,20 +729,68 @@ footer ul li a {
         order: 1;
         flex-basis: 30%;
         margin: 11px;
+        border: 2px solid rgb(128, 0, 0);
     }
 
     .viagem-imagem-hor {
         order: 2;
         flex-basis: 60%;
         margin: 10px;
+        border: 2px solid rgb(128, 0, 0);
     }
 
     .viagem-imagem-hor img {
+        height: 100%;
         width: 100%;
     }
     .viagem-imagem img {
         width: 100%;
+        height: 100%;
     }
     
+    /*contato*/
+
+    .wrapper-contato {
+        width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .wrapper-contato h2 {
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: 'Bellefair', serif;
+        font-size: 40px;
+        color: #CC7839;
+        text-transform: uppercase;
+        font-weight: 555;
+    }
+
+    .wrapper-contato div {
+        width: calc(100% - 4px);
+        text-align: center;
+        font-family: 'Bellefair', serif;
+        font-size: 35px;
+        color: #CC7839;
+        font-weight: 555;
+        border: 2px solid rgb(128, 0, 0);
+        background-color: #111;
+        margin-bottom: 10px;
+    }
+
+    .wrapper-contato a div {
+        font-family: 'Bellefair', serif;
+        font-size: 24px;
+        line-height: 100px;
+        color: #CC7839;
+        text-transform: uppercase;
+    }
+
+    .wrapper-contato div p {
+        font-family: 'Bellefair', serif;
+        font-size: 24px;
+        line-height: 100px;
+        color: #CC7839;
+    }
 
 }
